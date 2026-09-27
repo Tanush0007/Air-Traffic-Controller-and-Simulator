@@ -137,15 +137,6 @@ confirmed against the actual code:
 
 ---
 
-## Development Notes
-
-*(Left for you to fill in with your own account of the assignment — what
-you found tricky, any bugs you hit while implementing `coll()` or the
-quadratic root-finding in `ground()`, or how you reasoned through the
-event-ordering rule the spec calls out.)*
-
----
-
 ## Possible Updates
 
 - **N-flight collision clustering:** `coll()` is O(n²) over currently
