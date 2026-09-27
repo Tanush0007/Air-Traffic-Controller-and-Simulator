@@ -148,10 +148,6 @@ event-ordering rule the spec calls out.)*
 
 ## Possible Updates
 
-- **Hidden-case coverage:** The spec references a `visible_cases_2.txt`
-  illustrating that an earlier accident must not create a *new* collision
-  for other flights — worth adding as an explicit test once/if that file
-  is available.
 - **N-flight collision clustering:** `coll()` is O(n²) over currently
   flying aircraft per event; fine for the assignment's scale, but a
   spatial index (grid or k-d tree) would help at much larger fleet sizes.
